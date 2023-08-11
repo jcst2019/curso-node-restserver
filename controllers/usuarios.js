@@ -1,5 +1,7 @@
 const { response, request } = require('express');
 
+const Usuario = require('../models/usuario');
+
 
 const usuariosGet = (req = request, res = response) => {
 
